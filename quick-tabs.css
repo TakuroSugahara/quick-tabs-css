@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap');
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.withfocus:hover,
+.withfocus:hover div.title,
+div.closed.withfocus:hover div.title,
+.withfocus:hover div.url,
+.withfocus,
+.withfocus div.title,
+div.closed.withfocus div.title,
+.withfocus div.url {
+  background-color: #F5F5F5 !important;
+  color: black !important;
+  border-bottom: none;
+}
+
+.item:hover,
+.item:hover div.title,
+div.closed.item:hover div.title,
+.item:hover div.url {
+  background-color: #F5F5F5;
+  color: black;
+}
+
+b {
+  color: rgb(234, 85, 50) !important;
+  font-weight: normal !important;
+}
+
+body {
+  padding-top: 32px;
+  width: 600px;
+}
+
+div.item {
+  padding: 8px 12px;
+  background-color: noenl
+}
+
+div.item img {
+  border-radius: 50%;
+}
+
+div.close {
+  display: none !important;
+}
+
+div.separator.big {
+  margin-top: 8px;
+  height: auto;
+  padding: 8px 20px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  border-top: none;
+  border-bottom: none;
+  background: none;
+}
+
+input[type="text"] {
+  position: fixed;
+  padding: 8px 12px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  border-bottom: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
